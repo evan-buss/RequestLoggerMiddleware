@@ -6,6 +6,6 @@
 		<Description>Simple ASP.NET Core middleware that logs information about each request.</Description>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<RepositoryUrl>https://github.com/evan-buss/RequestLoggerMiddleware</RepositoryUrl>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 	</PropertyGroup>
 </Project>
