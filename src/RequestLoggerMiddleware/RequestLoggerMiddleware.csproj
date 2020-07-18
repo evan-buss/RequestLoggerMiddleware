@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>netcoreapp3.1</TargetFramework>
 		<Authors>Evan Buss</Authors>
@@ -8,4 +8,8 @@
 		<RepositoryUrl>https://github.com/evan-buss/RequestLoggerMiddleware</RepositoryUrl>
 		<Version>1.0.2</Version>
 	</PropertyGroup>
+
+	<ItemGroup>
+ 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+  	</ItemGroup>
 </Project>
