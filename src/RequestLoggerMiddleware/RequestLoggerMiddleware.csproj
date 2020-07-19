@@ -6,14 +6,14 @@
 		<Description>Simple ASP.NET Core middleware that logs information about each request.</Description>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<RepositoryUrl>https://github.com/evan-buss/RequestLoggerMiddleware</RepositoryUrl>
-		<Version>1.0.2</Version>
+		<Version>1.1.0</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
- 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
-  	</ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Colorful.Console" Version="1.2.10" />
+		<PackageReference Include="Colorful.Console" Version="1.2.10" />
 	</ItemGroup>
 </Project>

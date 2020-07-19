@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Colorful;
+using Microsoft.AspNetCore.Http;
 using RequestLoggerMiddleware.Loggers;
 using System.Threading.Tasks;
 
@@ -15,7 +16,7 @@ namespace RequestLoggerMiddleware
             _next = next;
             _options = options ?? new RequestLoggerOptions();
 
-            if (_options.ShouldUseColor)
+            if (_options.ShouldUseColor && !Console.IsOutputRedirected)
             {
                 _logger = new ColorfulRequestLogger(_next);
             }
