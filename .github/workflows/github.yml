@@ -1,4 +1,4 @@
-name: Automated Tests
+name: Test and Publish NuGet
 
 on:
   push:
