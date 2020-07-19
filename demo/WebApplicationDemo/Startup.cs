@@ -28,8 +28,8 @@ namespace WebApplicationDemo
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                //app.UseRequestLogger(options => options.EnableColor());
-                app.UseRequestLogger();
+                app.UseRequestLogger(options => options.EnableColor());
+                //app.UseRequestLogger();
             }
 
             app.UseRouting();
