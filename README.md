@@ -12,3 +12,5 @@ ASP.NET Core Request Logging Middleware
 
 	app.UseRequestLogger();
 ```
+
+![screenshot](https://raw.githubusercontent.com/evan-buss/RequestLoggerMiddleware/master/docs/colorful.png)
